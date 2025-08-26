@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Quizzes</title>
+    <link rel="stylesheet" href="quizzes-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Practice Quizzes 🧠</h1>
+        </header>
+
+        <main id="main-content">
+            <div id="quiz-list-section" class="quizzes-list">
+                <section class="quiz-section">
+                    <h2>Programming Quizzes</h2>
+                    <ul class="list">
+                        <li><a href="#" data-quiz="java">Java Quiz</a></li>
+                        <li><a href="#" data-quiz="python">Python Quiz</a></li>
+                        <li><a href="#" data-quiz="cpp">C++ Quiz</a></li>
+                    </ul>
+                </section>
+                
+                <section class="quiz-section">
+                    <h2>Web Development Quizzes</h2>
+                    <ul class="list">
+                        <li><a href="#" data-quiz="html_css">HTML & CSS Quiz</a></li>
+                        <li><a href="#" data-quiz="javascript">JavaScript Quiz</a></li>
+                        <li><a href="#" data-quiz="web_tech">Web Technologies Quiz</a></li>
+                    </ul>
+                </section>
+
+                <section class="quiz-section">
+                    <h2>Computer Fundamentals</h2>
+                    <ul class="list">
+                        <li><a href="#" data-quiz="os">Operating Systems Quiz</a></li>
+                        <li><a href="#" data-quiz="ds">Data Structures Quiz</a></li>
+                        <li><a href="#" data-quiz="dbms">Database Management Quiz</a></li>
+                    </ul>
+                </section>
+            </div>
+            
+            <div id="quiz-container" class="quiz-container" style="display: none;">
+                <h2 id="quiz-title"></h2>
+                <div id="quiz">
+                    <div id="question-container">
+                        <p id="question-text"></p>
+                        <div id="options-container" class="options-container"></div>
+                    </div>
+                    <div class="navigation">
+                        <button id="back-to-list-btn" class="btn">Back to Quizzes</button>
+                        <button id="next-btn" class="btn">Next</button>
+                        <button id="submit-btn" class="btn" style="display: none;">Submit</button>
+                    </div>
+                </div>
+                <div id="result-container" style="display: none;">
+                    <h2 id="result-heading"></h2>
+                    <p id="score-text"></p>
+                    <button id="restart-btn" class="btn">Restart Quiz</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="quizzes-script.js"></script>
+</body>
+</html>

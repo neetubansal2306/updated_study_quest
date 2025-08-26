@@ -1,0 +1,91 @@
+body {
+    background: #FFDDE1; /* Soft pink background */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.page-header {
+    background-color: #FF5E5B; /* Vibrant red-pink */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.content-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.category-section {
+    background-color: #fff;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-section h2 {
+    color: #FF5E5B;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 2px solid #FFC3A0; /* Soft orange underline */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.links-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-list li {
+    background-color: #FFF5F7; /* Very light pink */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.links-list li:hover {
+    background-color: #FFC3A0; /* Soft orange on hover */
+}
+
+.links-list a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.links-list a:hover {
+    color: #FF5E5B;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .page-header h1 {
+        font-size: 2em;
+    }
+    .content-container {
+        padding: 10px;
+    }
+    .category-section {
+        padding: 15px;
+    }
+}
