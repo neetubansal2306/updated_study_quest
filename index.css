@@ -1,14 +1,19 @@
 body {
-    background: #dfe2e9 url('image.png');
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url("image.png"); 
+  background-repeat: no-repeat;
+  background-size: cover; /* pura screen cover karne ke liye */
+  /* background-position: center;  */
+  background-attachment: fixed; /* scroll karne par bhi fixed rahe */
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-
 .container {
     width: 90%;
     max-width: 1200px;
@@ -100,3 +105,4 @@ s
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
+
